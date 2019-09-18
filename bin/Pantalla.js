@@ -36,7 +36,7 @@ class Pantalla {
         this.volver = this.app.loadImage("./data/Escenario/Iconos/back.png")
 
         //logo
-        this.logo = this.app.loadImage("./data/Escenario/Iconos/logo.png");
+        this.logo = this.app.loadImage("./data/Escenario/Iconos/Logo.png");
         this.logoY = 200;
         this.logoYMul = 0.2;
         this.logoZoom = 1;
