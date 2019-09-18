@@ -28,12 +28,12 @@ class Bandera {
         if (this.x == 1551) this.tipo = "Flag";
 
 
-        if (this.tipo == "Sign") this.poste = this.app.loadImage("./data/escenario/suelo/letrero.png");
+        if (this.tipo == "Sign") this.poste = this.app.loadImage("./data/escenario/Suelo/letrero.png");
 
         if (this.tipo == "Flag") {
             this.poste = [];
             for (let i = 0; i < 6; i++) {
-                this.poste[i] = this.app.loadImage("./data/escenario/suelo/bandera" + (i + 1) + ".png");
+                this.poste[i] = this.app.loadImage("./data/escenario/Suelo/bandera" + (i + 1) + ".png");
             }
         }
         this.waves = 0;
